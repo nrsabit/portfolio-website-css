@@ -206,3 +206,34 @@ hr{
     text-align: center;
     margin-top: 50px;
 }
+
+
+/* Footer and Contact Area Styles */
+footer{
+    background-color: #FFF8F3;
+}
+.contact-container{
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+}
+.contact-container .section-title{
+    text-align: left;
+}
+.contact-container a{
+    margin-right: 25px;
+    text-decoration: none;
+}
+.contact-container .resume-description{
+    margin-bottom: 30px;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="text"], input[type="email"], textarea:focus{
+    outline: none;
+}
