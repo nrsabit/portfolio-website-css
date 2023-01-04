@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.fa{
+    margin-right: 10px;
+}
 .primary-color{
     color: #FD6E0A;
 }
