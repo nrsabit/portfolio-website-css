@@ -163,4 +163,46 @@ section{
 /* Resume Setion Styles */
 .resume-container{
     margin-top: 100px;
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    padding-right: 50px;
+    margin: 30px 0;
+}
+.education-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.experience-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+}
+hr{
+    height: 0px;
+    border: 1px solid #d1d1d1;
+}
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
 }
